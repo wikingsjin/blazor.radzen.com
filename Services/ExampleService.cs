@@ -423,6 +423,19 @@ namespace LatestBlazor
                 },
             }
         },
+        new Example
+        {
+            Name="Gauges",
+            Children= new [] {
+                new Example
+                {
+                    Name = "Radial Gauge",
+                    Path = "radial-gauge",
+                    Icon = "&#xe01b",
+                    Tags = new [] { "gauge", "graph", "radial", "circle" }
+                },
+            }
+        },
         new Example()
         {
             Name="Application Scenarios",
